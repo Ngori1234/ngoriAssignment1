@@ -1,0 +1,131 @@
+<!--Name - Nitisha Gori-->
+<!--Student Id- 8929479-->
+<!--Assignment 1-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This website is about Biography of Priyanka Chopra Jonas">
+    <meta name="keywords" content="priyanka,chopra,jonas,actress,famous,tv,nick,jonas,malti,marie,US,India">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <title>Biography of Priyanka Chopra Jonas</title>
+</head>
+
+<body>
+    <header>
+        <h1>Priyanka Chopra Jonas</h1>
+    </header>
+
+    <nav>
+        <ul class="menu">
+            <li id="home-link"> <a href="index.html">Home</a></li>
+            <li id="contact-link"> <a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main id="main-section">
+        <form name="contact" id="contact" method="post" action="contact.php">
+            
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required autofocus placeholder="Your Full Name">
+            </div>    
+
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Your Email Address">
+            </div>
+
+            <div>
+                <label for="birthdate">Birth Date:</label>
+                <input type="date" id="birthdate" name="birthdate">
+            </div>    
+                
+            <div>
+                <label for="phone">Phone No.</label>
+                <input type="tel" id="phoneNumber" name="phoneNumber">
+            </div>
+                
+            <div>    
+                <label for="reason">Reason for Contacting:</label>
+                <select id="reason" name="reason">
+                    <option selected>Select a Reason</option>
+                    <option value="inquiry">General Inquiry</option>
+                    <option value="feedback">Feedback</option>
+                </select>
+            </div>  
+
+            <div>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" placeholder="Your Message"></textarea>
+            </div>
+
+            <div>
+                <label for="robot">I am not a Robot</label>
+                <input type="checkbox" id="not-robot" name="not-robot">
+            </div>
+
+            <div>
+                <input type="submit" value="Submit">
+            </div>
+            
+        </form>
+    </main>
+
+    <aside id="side-section">
+        <section>
+            <h3>FAQs</h3>
+            <table>
+
+                <tbody>
+                <tr>
+                    <th>Full Name</th>
+                    <td>Priyanka Chopra Jonas </td>
+                </tr>
+
+                <tr>
+                    <th>Birth Date</th>
+                    <td>18 July 1982</td>
+                </tr>
+
+                <tr>
+                    <th>Profession</th>
+                    <td>Actress</td>
+                </tr>
+
+                <tr>
+                    <th>Spouse</th>
+                    <td>Nick Jonas</td>
+                </tr>
+
+                <tr>
+                    <th>Daughter</th>
+                    <td>Malti Marie Jonas</td>
+                </tr>    
+                </tbody>
+
+            </table>
+        </section>
+
+        <section>
+            <h3>External Links</h3>
+            <ul>
+                <li><a href="https://youtu.be/OcISVEh1jyw?si=FQPRdrjNxIyTQ_om" target="_blank">Priyanka Chopra Podcast</a></li>
+                <li><a href="https://youtu.be/edIctUyd4RQ?si=pM-43wMKvEVUaYG3" target="_blank">Priyanka Chopra Speech</a></li>
+                <li><a href="https://youtu.be/dOUV2rwMr1g?si=s7YhIKLu30PBHh2T" target="_blank">73 Questions with priyanka chopra</a></li>
+            </ul>
+        </section>
+
+    </aside>
+
+    <footer id="clear-element">
+        <p>&copy; 2024 Nitisha Gori</p>
+    </footer>
+</body>
+
+</html>
+
